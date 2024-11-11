@@ -1,0 +1,22 @@
+.description-image{
+    object-fit: contain;
+    aspect-ratio: 1;
+}
+.find-book-btn {
+    background-color: #add8e6; /* Light Blue */
+    border: 2px solid black; /* Black Border */
+    color: black; /* Text Color */
+    padding: 10px 20px; /* Padding for a better look */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold; /* Bold Text */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  /* Hover Effect */
+  .find-book-btn:hover {
+    background-color: #87ceeb; /* Darker shade of blue on hover */
+    transform: scale(1.05); /* Slightly increase the size */
+  }
+  

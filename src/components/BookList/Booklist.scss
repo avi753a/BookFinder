@@ -1,0 +1,21 @@
+.table-responsive {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  .book-table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  .book-table th,
+  .book-table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .book-results {
+    max-width: 100%;
+  }
+  
